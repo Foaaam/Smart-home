@@ -1,0 +1,338 @@
+body {
+    background-color: #ffdd59;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+  
+html,body {
+    height: auto;
+    width: 1895px;
+} 
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: -70px;
+  margin-left: 300px;
+}
+  
+svg {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+
+.controller{
+  position: absolute;
+  top: 400px;
+  left: 1600px;
+  background-color: #838383;
+  width: 265px;
+  height: 401px;
+  border-radius: 63px;
+}
+
+.controller-title{
+  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #fffffffa;
+}
+
+.controller-list{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  list-style-type: none;
+  margin-right: 0px;
+  margin-top: 35px;
+}
+
+.controller-item{
+  background-color: #363636;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 50px;
+  color: rgb(235, 234, 234);
+  font-size: 20px;
+  min-width: 55px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fridge-controller{
+  margin-left: 20px;
+}
+
+.controller-disabled{
+  position: absolute;
+  top: 560px;
+  left: 1600px;
+}
+
+.title{
+  top: -260px;
+  left: -500px;
+  font-family: Arial;
+  color:rgba(0, 67, 252, 0.911);
+  text-align: center;
+  margin: 0;
+}
+
+.button{
+  top: -497px;
+  left: 415px;
+  font-family: Arial;
+  border: 0;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(2, 143, 13, 0.911);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  z-index: 5;
+  width: 250px;
+}
+
+.hide-button{
+  padding: 5px;
+}
+
+.panel-list{
+  list-style-type: none;
+  margin: 0;
+}
+
+.temperature-button{
+  background-color: rgb(255, 54, 54);
+}
+
+.light-controller{
+  background-color: rgb(255, 54, 54);
+}
+
+.smoke{
+  position: absolute;
+  top: 4px;
+  left: 1016px;
+}
+
+input[type=number] {
+  width: 35%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.temperature{
+  font-size: 35px;
+}
+
+.temperature-block{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.sumbit-temperature-button{
+  padding: 7px;
+}
+
+.light-1{
+  position: absolute;
+  top: 155px;
+  left: 1285px;
+}
+
+.light-2{
+  position: absolute;
+  top: 570px;
+  left: 1440px;
+}
+
+.light-3{
+  position: absolute;
+  top: 420px;
+  left: 1010px;
+}
+
+.light-4{
+  position: absolute;
+  top: 420px;
+  left: 1245px;
+}
+
+.light-5{
+  position: absolute;
+  top: 445px;
+  left: 832px;
+}
+
+.light-block{
+  display: flex;
+  align-items: center;
+  gap:15px;
+  margin-top: -55px;
+}
+
+.light-title{
+  font-size: 35px;
+}
+
+.light-button{
+  padding: 5px;
+  height: 50px;
+}
+
+.light-text{
+  font-size: 20px;
+}
+
+.tv-title{
+  font-size: 35px;
+}
+
+.tv-block{
+  margin-top: -50px;
+}
+
+.tv-block{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.tv-button{
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #FFFFFF;
+}
+
+.tv-hover-1{
+  fill:#6B6B6B;
+}
+
+.tv-hover-2{
+  fill:#6B6B6B;
+}
+
+.tv-hover-3{
+  fill:#6B6B6B;
+}
+
+.tv-hover-4{
+  fill:#6B6B6B;
+}
+
+.tv-controller{
+  background-color: rgb(255, 54, 54);
+}
+
+.garage-open{
+  position: absolute;
+  top: 556px;
+  left: 704px;
+  width: 290px;
+  height: 191px;
+}
+
+.garage-close{
+  position: absolute;
+  top: 556px;
+  left: 704px;
+  width: 290px;
+  height: 191px;
+}
+
+.garage-controller{
+  background-color: rgb(255, 54, 54);
+}
+
+.channel-list{
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.tv-channel{
+  width: 120px;
+  height: 50px;
+}
+
+.tv-list{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.panel{
+  margin-top: -550px;
+}
+
+.fridge-form-input{
+  padding: 15px;
+}
+
+.fridge-form-button{
+  height: 48px;
+}
+
+.message-list{
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 180px 180px;
+}
+
+.message-text{
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.message-text:hover{
+  background-color: rgba(233, 37, 37, 0.973);
+  color: white;
+  transition: 0.45s;
+}
+
+.fridge-block{
+  margin-top: -50px;
+}
+
+.fridge-title{
+  font-size: 35px;
+}
+
+.fridge-form{
+  margin-top: -20px;
+}
+
+.fridge-controller{
+  background-color: rgb(255, 54, 54)
+}
